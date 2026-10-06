@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;  
+}
+nav{
+    background-color: #fff;
+}
+
+body{
+  background-color: #fff;
+  background-image: url("/public/img/img4.svg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;    
+}
+
+.customContainer {
+  min-height: calc(100vh - 120px); /* Adjust the height as needed, subtracting the height of the footer */
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  font-family: 'Sometype Mono', monospace;
+}
+
+.visitorCount{
+  font-family: 'Anton', sans-serif;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #14a800;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button.active {
+    background-color: #F8F8FF;
+    color: #14a800; 
+  }
+  
+  .pagination button:hover {
+    background-color: #14a800;
+  }
+  
+  /* Optional: Style the Previous and Next buttons */
+  .pagination .prev-next {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .active{
+    @apply bg-[#14a800] text-white
+  }
+

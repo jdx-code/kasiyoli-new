@@ -1,0 +1,62 @@
+.sidebar {
+  background-color: #fff;
+  color: #fff;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; /* Change this to 0 */
+  transition: left 0.3s ease-in-out;
+  padding-top: 20px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  display: block;
+  padding: 15px 25px;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  max-width: 540px;
+  margin: 15px;
+}
+
+
+
+
