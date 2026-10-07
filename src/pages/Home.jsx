@@ -126,7 +126,7 @@ const Home = () => {
                   sm:text-lg
                   text-gray-600
                 ">
-                  ত্বাৱধায়ক/সম্পাদক
+                  তত্বাৱধায়ক/সম্পাদক
                 </p>
 
                 <p className="
