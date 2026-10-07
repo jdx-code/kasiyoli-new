@@ -42,7 +42,10 @@ const MainLayout = (props) => {
                         {item.subTitle}
                     </h1>
                     <div className="text-justify italic">
-                        <p>{item.question}</p>
+                        {/* <p>{item.question}</p> */}
+                        <p className="whitespace-pre-line">
+                            {item.question}
+                        </p>
                         
                         <p>{item.answer}</p>
                         <p>{item.college}</p>
