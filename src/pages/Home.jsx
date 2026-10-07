@@ -15,7 +15,7 @@ const Home = () => {
     {
       _id: '64feb73c44ca262782cd9191',
       coverImage: '/img/volume2/cover/2new.jpg',
-      volumeYear: '2020-2021',
+      volumeYear: '2021-2022',
       volumeNum: '২য় সংখ্যা',
       volumeEditor: 'অসমীয়া বিভাগ'
     }
