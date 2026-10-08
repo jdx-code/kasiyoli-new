@@ -137,18 +137,18 @@ const photoDB = [
     photoType: 'V1-3',
     image: '/img/volume1/gallery/3/9.jpeg'
   },
-  {
-    id: 19,
-    volume: '64feb45c44ca262782cd917f',
-    photoType: 'V1-3',
-    image: '/img/volume1/gallery/3/10.jpeg'
-  },
-  {
-    id: 20,
-    volume: '64feb45c44ca262782cd917f',
-    photoType: 'V1-3',
-    image: '/img/volume1/gallery/3/11.jpeg'
-  },
+  // {
+  //   id: 19,
+  //   volume: '64feb45c44ca262782cd917f',
+  //   photoType: 'V1-3',
+  //   image: '/img/volume1/gallery/3/10.jpeg'
+  // },
+  // {
+  //   id: 20,
+  //   volume: '64feb45c44ca262782cd917f',
+  //   photoType: 'V1-3',
+  //   image: '/img/volume1/gallery/3/11.jpeg'
+  // },
   {
     id: 21,
     volume: '64feb45c44ca262782cd917f',
