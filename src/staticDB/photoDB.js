@@ -766,6 +766,25 @@ const photoDB = [
   {
     id: 63,
     volume: '64feb73c44ca262782cd9191',
+    photoType: 'V2-7a',
+    image: '/img/volume2/gallery/7a/1.jpeg'    
+  },
+  {
+    id: 64,
+    volume: '64feb73c44ca262782cd9191',
+    photoType: 'V2-7a',
+    image: '/img/volume2/gallery/7a/2.jpeg'    
+  },
+  {
+    id: 65,
+    volume: '64feb73c44ca262782cd9191',
+    photoType: 'V2-7a',
+    image: '/img/volume2/gallery/7a/3.png'    
+  },
+
+  {
+    id: 63,
+    volume: '64feb73c44ca262782cd9191',
     photoType: 'V2-7',
     image: '/img/volume2/gallery/7/1.png',
     studentName: 'ৰীমা কলিতা'
